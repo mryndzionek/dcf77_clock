@@ -19,9 +19,9 @@ is worth the effort. The code currently provides (blinkenlights)[https://blog.bl
 phase detection algorithm and sync mark binning. Date and time decoding is missing. The project outputs binary trace
 on one of the MCU UART ports. This allows gathering logs and analysing performance. Below some examples:
 
-![trace1](https://github.com/mryndzionek/picoTracer/raw/master/logs/2016-06-18-18:25:21-ttyUSB0:576000:8N1.png)
-![trace2](https://github.com/mryndzionek/picoTracer/raw/master/logs/2016-06-19-13:00:00-ttyUSB0:576000:8N1.png)
-![trace3](https://github.com/mryndzionek/picoTracer/raw/master/logs/2016-06-19-22:17:15-ttyUSB0:576000:8N1.png)
+![trace1](https://github.com/mryndzionek/dcf77_clock/raw/master/logs/2016-06-18-18:25:21-ttyUSB0:576000:8N1.png)
+![trace2](https://github.com/mryndzionek/dcf77_clock/raw/master/logs/2016-06-19-13:00:00-ttyUSB0:576000:8N1.png)
+![trace3](https://github.com/mryndzionek/dcf77_clock/raw/master/logs/2016-06-19-22:17:15-ttyUSB0:576000:8N1.png)
 
 License
 -------
