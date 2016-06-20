@@ -1,0 +1,32 @@
+<trace level = "DEBUG" length="128">
+
+    <enum name = "data" size = "1">
+        <entry key = "0x03" value = "one"/>
+        <entry key = "0x02" value = "zero"/>
+        <entry key = "0x01" value = "undefined"/>
+        <entry key = "0x00" value = "sync_mark"/>
+    </enum>
+
+    <msg id = "startup" level="INFO" format = "STM32L053R8 DCF77 clock"/>
+
+    <msg id = "rtcepoch" level="INFO" format = "RTC unix epoch {}">
+        <arg name = "ts" type = "number" size ="4"/>
+    </msg>
+
+    <msg id = "status" level="DEBUG" format = "Phase {}, Max {}, Noise {}">
+        <arg name = "phase" type = "number" size ="2"/>
+        <arg name = "max" type = "number" size ="4"/>
+        <arg name = "noise_max" type = "number" size ="4"/>
+    </msg>
+
+    <msg id = "data" level="DEBUG" format = "Data: {}, Sync index: {} Sync max: {} Sync noise: {}">
+        <arg name = "data" type = "enum" />
+        <arg name = "s_index" type = "number" size ="1"/>
+        <arg name = "s_max" type = "number" size ="1"/>
+        <arg name = "s_noise" type = "number" size ="1"/>
+    </msg>
+
+    <msg id = "locked" level="INFO" format = "Locked to sync mark"/>
+    <msg id = "lost_lock" level="WARN" format = "Lost lock to sync mark"  alias="locked"/>
+
+</trace>

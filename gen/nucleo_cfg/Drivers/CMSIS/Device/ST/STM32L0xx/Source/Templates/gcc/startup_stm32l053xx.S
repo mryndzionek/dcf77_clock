@@ -1,0 +1,1 @@
+/home/mr_gogol/Pulpit/dcf77_clock/gen/nucleo_cfg/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/gcc/startup_stm32l053xx.s
