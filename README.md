@@ -14,7 +14,7 @@ This way clock drift problems are eliminated. The overall concurrency handling m
 * [Atom](https://github.com/tomahawkins/atom)
 
 Basically `message passing`, `state machines` and `continuation-passing style` efficiently implemented in C.
-This approach has its drawbacks and requires some attention but fine grained concurrency and minimal footprint
+This approach has its drawbacks and requires some attention, but fine grained concurrency and minimal footprint
 is worth the effort. The code currently provides [blinkenlights](https://blog.blinkenlight.net/experiments/dcf77/)
 phase detection algorithm and sync mark binning. Date and time decoding is missing. The project outputs binary trace
 on one of the MCU UART ports. This allows gathering logs and analysing performance. Below some examples:
